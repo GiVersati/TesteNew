@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Page Login</title>
+</head>
+
+<body>
+    <header>
+        <img src="logotip.png">
+        <nav class="menu">
+            <ul class="active">
+                <li class="current-item"><a href="#">Home</a></li>
+                <li class="current-item"><a href="" target="_blank">Principal</a></li>
+                <li class="current-item"><a href="" target="_blank">Contato</a></li>
+
+            </ul>
+
+
+
+
+
+        </nav>
+    </header>
+    <main>
+        <form class="form_login" name="logar" method="post" onsubmit="entrar(event)">
+            <h1 id="Title">Login</h1>
+            <div class="nomes">
+                <label> Username:</label>
+                <input type="text" name="username" placeholder="Enter your username" required>
+            </div>
+            <div class="senhas">
+                <label> Password:</label>
+                <input type="password" name="password" placeholder="Enter your password">
+
+
+            </div>
+            <input class="botao" type="submit">
+
+
+        </form>
+
+
+    </main>
+    <footer>
+        <img src="loguinho.png" width="165">
+        <p class="textinho">
+            I'm just a test for a login form :)</p>
+    </footer>
+</body>
+<script>
+    function entrar(event) {
+        event.preventDefault() /*essa linha esta pegando o evento e impedindo que realize o comportamente padrão de recarregar a pagina quando é enviado*/
+        var username = document.forms["logar"]["username"].value /* document=isto esta pegando o documento forms=isto esta pegando os formularios do documento(nome do form e por ultimo o campo que eu quero pegar) */
+        var password = document.forms["logar"]["password"].value /*armazena o valor em uma variavel*/
+        if (username === "teste1" && password === "12345") {  /*login */
+            window.location.href = "https://www.newconsoftware.com.br/newcon/site/index.aspx" /*locar para outra pagina*/
+
+        } else {
+
+            document.getElementById("warning").textContent = "O Login ou a senha estão errados!" /*Pega o elemento pelo id para exibir uma mensagem no caso o elemento da tag <p>*/
+
+
+        }
+
+
+
+    }
+
+
+
+</script>
+
+
+</html>

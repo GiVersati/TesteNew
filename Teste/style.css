@@ -1,0 +1,200 @@
+* {
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+
+    
+}
+
+header{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    background:#8B4500;
+	float: left;
+    height: 10%;
+    border: 10px solid #8B4500;
+    padding: 5px;
+    top:50%;
+}
+
+.menu ul {
+	display:inline-block;
+}
+
+.menu li {
+	margin:0px 50px 0px 0px;
+	float:left;
+	list-style:none;
+	font-size:17px;
+    
+}
+
+.menu li:last-child {
+	margin-right:0px;
+}
+
+.menu a {
+	text-shadow:0px 1px 0px rgba(0,0,0,0.5);
+	color:#777;
+	transition:color linear 0.15s;
+}
+
+.menu a:hover, .menu .current-item a {
+	text-decoration:none;
+	color:black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+} 
+img{
+    width: 20%;
+    height: 10%;
+    padding:10px;
+}
+
+.form_login{
+    padding: 30%;
+    font-size: 15px;
+    position:relative;
+    text-align: center;
+    border-color:#8B475D;
+    border-width: 2px;
+    border-style:outset;
+    
+  
+   
+}
+#Title{
+    font-size: 30px;
+    padding:50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color:#8B3A62;
+}
+.nomes{
+
+    padding:10px;
+    font-size:15px;
+    margin:5px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-color:#FFC1C1;
+    border-width: 2px;
+    border-style:outset;
+    border-radius: 5px;
+     margin-left: 5px;
+
+}
+
+.nomes input{
+    
+    width: 35%;
+    height: 90%;
+    border-radius: 20px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 5px;
+}
+
+.senhas{
+    padding:10px;
+    font-size:15px;
+    margin:5px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-color:#FFC1C1;
+    border-width: 2px;
+    border-style:outset;
+    border-radius: 5px;
+  
+
+  
+}
+
+.senhas input{
+    width: 35%;
+    height: 100%;
+    border-radius:20px;
+    margin-left: 10px;
+}
+
+
+.botao{
+    margin-top: 2rem;
+    padding: 0.4rem;
+    width: 20%;
+    background: linear-gradient(to left,#CD6889, #FFA07A);
+    cursor: pointer;
+    color:black;
+    font-size: 0.9rem;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    text-align: center;
+    position:relative;
+
+}
+footer {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    background:#8B4500;
+	float: left;
+    height: 10%;
+    border: 10px solid #8B4500;
+    padding: 10px;
+    top:50%;
+}
+ footer p{
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: 20px;
+    position: absolute;
+     margin-left: 50%;
+    
+    left: 170px;
+    top:110px;
+    font-weight: bold;
+
+ }
+
+
+
+
+
+
+
+/*#nome{
+    font-size: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding:1px;
+    
+}
+#username{
+    
+    position: relative;
+    text-align: center;
+    width: 50%;
+    border-radius: 5px;
+    border:solid grey;
+    padding:2px;
+	
+}
+#senha{
+   position:relative;
+   text-align: center;
+   width: 50px;
+   padding:20px;
+   
+}
+#password{
+    position: relative;
+    text-align: center;
+    width: 50%;
+    border-radius: 5px;
+    border:solid grey;
+	
+}
+.senhas{
+    border-radius: 10px;
+}
+*/
